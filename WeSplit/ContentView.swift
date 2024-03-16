@@ -98,6 +98,8 @@ struct TipPercentageView: View {
                     }
                 }
                 .pickerStyle(.wheel)
+                .background(Color.gray.opacity(0.2))
+                .cornerRadius(12)
             }
         }
         .navigationTitle("Tip Percentage")
